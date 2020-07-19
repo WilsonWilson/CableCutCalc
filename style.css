@@ -45,9 +45,9 @@ label {
   display: block;
   padding: 0px 4px;
   z-index: 2;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: #888;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.1rem;
 }
 input {
