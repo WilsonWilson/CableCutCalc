@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cylce Count Calc</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="description" content="Your daily fill of Hoops fun." />
+
+    <!-- Android -->
+    <link rel="shortcut icon" sizes="192x192" href="icon-192x192.png" />
+    <meta name="theme-color" content="#fd5d30" />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" sizes="120x120" href="icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon-180x180.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  </head>
+
+  <body>
+    <h1>Cable Cut Calculator</h1>
+    <div class="feedback-container">
+      <div class="feedback-row row-og hide">
+        Original Length:
+        <div class="original"></div>
+      </div>
+
+      <div class="feedback-section-head row-pre hide">Pre-Cut Reel Info</div>
+
+      <div class="feedback-row row-pre hide">
+        Available:
+        <div class="available-pre"></div>
+      </div>
+      <div class="feedback-row row-pre hide">
+        Lifetime Used:
+        <div class="life-pre"></div>
+      </div>
+
+      <div class="feedback-section-head row-post hide">Post-Cut Reel Info</div>
+
+      <div class="feedback-row row-post hide">
+        Available:
+        <div class="available-post"></div>
+      </div>
+      <div class="feedback-row row-post hide">
+        Used:
+        <div class="life-post"></div>
+      </div>
+      <div class="feedback-row row-post hide">
+        Cut Length:
+        <div class="job"></div>
+      </div>
+    </div>
+    <form>
+      <div class="input-row">
+        <label for="top">Top</label>
+        <input type="number" id="top" name="top" />
+      </div>
+
+      <div class="input-row">
+        <label for="bottom">Bottom</label>
+        <input type="number" id="bottom" name="bottom" />
+      </div>
+
+      <div class="input-row">
+        <label for="ore">Pre-Cut Mark</label>
+        <input type="number" id="pre" name="pre" />
+      </div>
+
+      <div class="input-row">
+        <label for="post">Post-Cut Mark</label>
+        <input type="number" id="post" name="post" />
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

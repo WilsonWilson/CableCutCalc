@@ -1,0 +1,26 @@
+{
+  "short_name": "Cut Calculator",
+  "name": "Reel Sense Cable Cut Calculator",
+  "icons": [
+    {
+      "src": "icons/favicon-32x32.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "orientation": "portrait-primary",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fd5d30",
+  "background_color": "#fd5d30"
+}
